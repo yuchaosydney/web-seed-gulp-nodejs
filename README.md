@@ -1,6 +1,6 @@
 # About this project
 
-This is a base template that has Gulp working with Browsersync, Nodemon, Sass, Icon Fonts, and JS compiling.
+This is a base template that has Gulp working Sass, Icon Fonts, and JS compiling.
 
 
 # Developing in this project
@@ -35,14 +35,10 @@ This is a base template that has Gulp working with Browsersync, Nodemon, Sass, I
 High level project structure
 
 ```
-public/
-| - css/            # Output styles
-| - dist/           # Output js
-| - fonts/          # Output Icon Fonts
-| - img/
-| - | - icons/      # Source SVG Icons
+dist/
+| - styles/            # Output styles
+| - images/
 | - js/             # Source js
-| - scss/           # Source styles
 ```
 
 The SCSS file organization is based off of http://thesassway.com/beginner/how-to-structure-a-sass-project.
