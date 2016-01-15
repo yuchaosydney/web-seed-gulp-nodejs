@@ -71,7 +71,7 @@ function compileTemplates() {
 }
 
 function moveFonts() {
-  return gulp.src('src/fonts/*')
+  return gulp.src('src/fonts/**')
     .pipe(plumber({errorHandler: notify.onError("Err: <%= error.message %>")}))
     .pipe(gulp.dest('dist/fonts'));
 }
